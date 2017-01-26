@@ -52,7 +52,7 @@ var settings = module.exports = {
     httpStatic: path.join(__dirname,"public"),
 
     functionGlobalContext: { 
-    CrC:require("CrC");
+    CrC:require("crc");
     },
 
     storageModule: require("./couchstorage")
